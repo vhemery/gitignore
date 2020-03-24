@@ -3,10 +3,10 @@
 # Sources (e.g. BonitaUsers.groovy) are located in src-providedGroovy folder and build result (e.g. BonitaUsers.class) is located in bin folder.
 /bin
 
-# BDM jar generated from the BDM definition (bom.xml)
+# BDM jar generated from the BDM definition (bom.xml).
 /lib/bdm-client-pojo.jar
 
-# You can also ignore in lib folder jar files related to connector provided by Bonita
+# You can also ignore in lib folder jar files related to connector provided by Bonita.
 /lib/bonita-connector-email-impl-1.0.15.jar
 
 # Classpath configuration for Bonita Studio. Automatically generated.
@@ -39,7 +39,9 @@
 /web_page/.metadata
 
 # Output of web component build
+# Make sure that we keep the custom widget controler
 /web_widgets/*/*.js
+!/web_widgets/*/*.ctrl.js
 /web_page/*/js
 
 # Web widgets provided by Bonita in the UI Designer.
